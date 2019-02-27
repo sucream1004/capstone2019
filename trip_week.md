@@ -20,7 +20,7 @@ import csv
 # Trip data
 [relevant page](http://web.mta.info/mta/planning/data-nyc-travel.html)
 
-![image.png](attachment:image.png)
+![image.png](1.png)
 
 Since this data is based on survey, MTA applied and validated weight. The description can be found in the report (pg. 46) <br>
 But not fully understood! I just tried this. <br>
@@ -727,7 +727,7 @@ display(trip_o.head(), trip_d.head())
 # Census Tracts
 
 ## Census Tract Code Format
-![image.png](attachment:image.png)
+![image.png](2.png)
 * census tract code
 * state + county + tract
 Counties in NYC <br>
@@ -1560,10 +1560,10 @@ mrg['trip_o'] - mrg['trip_d']
 mrg.to_csv('trip_with_pop.csv', index=False)
 ```
 
-![image.png](attachment:image.png)
+![image.png](3.png)
 
 Figure 0. Origin Data
 
-![image.png](attachment:image.png)
+![image.png](4.png)
 
 Figure 0. Destination data (Quantile)
